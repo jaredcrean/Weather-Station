@@ -1,4 +1,5 @@
-import pressure
+from pressure import Weather
 
-p = Weather.pressure()
+pres = Weather.messure_pressure()
+
 print(p)

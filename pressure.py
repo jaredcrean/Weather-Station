@@ -32,3 +32,5 @@ class Weather():
             print(data)
             t = threading.Timer(30.0, lambda: write_csv(fileName, data))
             t.start()
+
+Weather.messure_pressure()
